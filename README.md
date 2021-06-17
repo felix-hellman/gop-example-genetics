@@ -7,6 +7,7 @@ Which was used in this gamejam https://itch.io/jam/aiandgames-2021
 
 Different genes return different strings which are then scored by the Demo script and fed back into genetic pool
 
+## Installation
 ```bash
 gop install
 ```
