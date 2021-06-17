@@ -1,0 +1,6 @@
+project:
+  dependencies:
+  - name: felix-hellman/genetics
+    version: 0.0.1
+  repository:
+  - path: https://gop.shrimpray.com

@@ -1,0 +1,45 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+_global_script_classes=[ {
+"base": "Node",
+"class": "Gene",
+"language": "GDScript",
+"path": "res://pkg/felix-hellman-genetics/Gene.gd"
+}, {
+"base": "Node",
+"class": "Genome",
+"language": "GDScript",
+"path": "res://pkg/felix-hellman-genetics/Genome.gd"
+}, {
+"base": "Node",
+"class": "GenomePool",
+"language": "GDScript",
+"path": "res://pkg/felix-hellman-genetics/GenomePool.gd"
+} ]
+_global_script_class_icons={
+"Gene": "res://pkg/felix-hellman-genetics/Gene.gd",
+"Genome": "res://pkg/felix-hellman-genetics/Genome.gd",
+"GenomePool": "res://pkg/felix-hellman-genetics/GenomePool.gd"
+}
+
+[application]
+
+config/name="awesome"
+run/main_scene="res://main.tscn"
+config/icon="res://icon.png"
+
+[physics]
+
+common/enable_pause_aware_picking=true
+
+[rendering]
+
+environment/default_environment="res://default_env.tres"
