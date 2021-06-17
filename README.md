@@ -2,7 +2,7 @@
 
 ## Example project showing demo library felix-hellman/genetics version 0.0.1
 
-This is demo fetches an implementation of https://en.wikipedia.org/wiki/Genetic_algorithm
+This demo fetches an implementation of https://en.wikipedia.org/wiki/Genetic_algorithm
 
 Which was used in this gamejam https://itch.io/jam/aiandgames-2021
 
